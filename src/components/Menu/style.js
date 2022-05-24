@@ -5,8 +5,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 1px;
-  margin: 15px 200px 0px 50px;
+  /* height: 1px; */
+  /* margin: 15px 200px 0px 50px; */
 `;
 
 export const Up = styled.div`
@@ -22,9 +22,12 @@ export const LogoContainer = styled.div`
 `;
 
 export const TwitLogo = styled.img`
-  width: 45px;
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  margin: ${(props) => props.margin};
+  /* width: 45px;
   height: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
 `;
 
 export const Img = styled.img`
@@ -34,9 +37,10 @@ export const Img = styled.img`
 `;
 
 export const Text = styled.div`
-  font-size: 20px;
+  font-size: ${(props) => props.fontSize};
   text-align: center;
-  margin-top: 4px;
+  margin-top: ${(props) => props.marginTop};
+  font-weight: ${(props) => props.fontWeight};
 `;
 
 export const Btn = styled.button`
