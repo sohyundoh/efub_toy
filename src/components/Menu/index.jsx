@@ -32,38 +32,60 @@ function Menu() {
     <>
       <Container>
         <Up>
-          <TwitLogo src={Twit} alt="twitter logo" />
+          <TwitLogo
+            src={Twit}
+            alt="twitter logo"
+            width="45px"
+            height="35px"
+            margin="0px 0px 10px 0px"
+          />
           <LogoContainer>
             <Img src={Home} alt="home logo" />
-            <Text>홈</Text>
+            <Text fontSize="20px" marginTop="4px">
+              홈
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={Search} alt="search logo" />
-            <Text>탐색하기</Text>
+            <Text fontSize="20px" marginTop="4px">
+              탐색하기
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={Alarm} alt="alarm logo" />
-            <Text>알림</Text>
+            <Text fontSize="20px" marginTop="4px">
+              알림
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={Message} alt="message logo" />
-            <Text>쪽지</Text>
+            <Text fontSize="20px" marginTop="4px">
+              쪽지
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={Bookmark} alt="bookmark logo" />
-            <Text>북마크</Text>
+            <Text fontSize="20px" marginTop="4px">
+              북마크
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={List} alt="list logo" />
-            <Text>리스트</Text>
+            <Text fontSize="20px" marginTop="4px">
+              리스트
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={SubProfile} alt="profile logo" />
-            <Text>프로필</Text>
+            <Text fontSize="20px" marginTop="4px">
+              프로필
+            </Text>
           </LogoContainer>
           <LogoContainer>
             <Img src={SubEtc} alt="etc logo" />
-            <Text>더보기</Text>
+            <Text fontSize="20px" marginTop="4px">
+              더보기
+            </Text>
           </LogoContainer>
           <Btn type="button" height="50px" width="200px" margin="10px">
             트윗하기

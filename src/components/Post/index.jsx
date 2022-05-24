@@ -1,5 +1,4 @@
 import {
-  Line,
   Container,
   Top,
   PostTop,
@@ -45,10 +44,15 @@ function Post() {
           <PostIcon src={Emoji} alt="emoji" />
           <PostIcon src={Schedule} alt="schedule" />
           <PostIcon src={Location} alt="location" />
+          <Btn
+            type="button"
+            height="35px"
+            width="100px"
+            margin="5px 0px 0px 250px"
+          >
+            트윗하기
+          </Btn>
         </Icon>
-        <Btn type="button" height="35px" width="80px">
-          트윗하기
-        </Btn>
       </PostBottom>
     </Container>
   );
